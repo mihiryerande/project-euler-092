@@ -1,4 +1,7 @@
-# Project Euler - Problem 92 - Square Digit Chains
+# Project Euler
+
+## Problem 92 - Square Digit Chains
+
 A number chain is created by continuously adding the square of the digits in a number to form a new number until it has been seen before.
 
 For example,
