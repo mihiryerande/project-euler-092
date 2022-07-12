@@ -14,7 +14,7 @@
 #
 #     How many starting numbers below ten million will arrive at 89?
 
-def square_digit_next(n):
+def square_digit_next(n: int) -> int:
     """
     Returns the number following `n` in its 'square-digit-chain',
       meaning the sum of the squares of the digits of `n`.
@@ -23,7 +23,7 @@ def square_digit_next(n):
         n (int): Natural number
 
     Returns:
-        Next number, after `n`, in its square-digit-chain.
+        (int): Next number, after `n`, in its square-digit-chain.
 
     Raises:
         AssertError: if incorrect args are given
@@ -32,7 +32,7 @@ def square_digit_next(n):
     return sum(map(lambda d: int(d)**2, list(str(n))))
 
 
-def main(n):
+def main(n: int) -> int:
     """
     Returns the amount of starting numbers below `n` whose square-digit-chains arrive at 89.
 
